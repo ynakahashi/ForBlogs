@@ -4,12 +4,11 @@ publishDir = "docs"
 hasCJKLanguage = true
 languageCode = "ja-jp"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+disqusShortname = "ynakahashi"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
 paginate = 10
-
 title = "blogdown is awesome!!"
 [params]
 	name = "Your name"
@@ -26,15 +25,15 @@ title = "blogdown is awesome!!"
 	custom_css  = []
 
    [params.sidebar]
-     bio = "**Strata**は素晴らしいね！！"
+     bio = "この素晴らしき**R**な世界"
 
 	[params.about]
-		hide  = true
-		title = "Ipsum"
-		content = "AAA"
+		hide  = false
+		title = "About this blog"
+		content = "This blog is writtne by ..."
 
 	[params.portfolio]
-		hide  = true
+		hide  = false
 		title = "Recent Work"
 
 		# The images and thumbnails are stored under static/images
@@ -87,18 +86,16 @@ title = "blogdown is awesome!!"
 		# This can be exact coordinates or a searchable address in google maps
 		gmaps_address = "39.7889055,-120.5443524"
 		address = [
-			"1234 Somewhere Rd.",
-			"Nashville, TN 00000",
-			"United States"
+			"1234",
+			"Tokyo",
+			"Japan"
 		]
 		phone = "000-000-0000"
 		email = "hello@example.com"
 
 		[params.contact.form]
-			# Set custom strings for the form if your native
-			# language isn't English
-			name = "Name"
-			email = "Email"
+			name = "ynakahashi"
+			email = "ynakahashi"
 			message = "Message"
 			submit = "Send message"
 
