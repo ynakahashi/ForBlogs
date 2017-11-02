@@ -5,9 +5,7 @@ hasCJKLanguage = true
 languageCode = "ja-jp"
 theme = "hugo-strata-theme"
 disqusShortname = "ynakahashi"
-# Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
-# Define how many posts should appear on a site
 paginate = 10
 title = "blogdown is awesome!!"
 [params]
@@ -32,8 +30,12 @@ title = "blogdown is awesome!!"
 		title = "About this blog"
 		content = "This blog is writtne by ..."
 
-	[params.portfolio]
+	[params.recentposts]
 		hide  = false
+		title = "Recent blog posts"
+
+	[params.portfolio]
+		hide  = true
 		title = "Recent Work"
 
 		# The images and thumbnails are stored under static/images
@@ -50,33 +52,6 @@ title = "blogdown is awesome!!"
 			title = "Lorem ipsum dolor."
 			description = "Lorem ipsum dolor sit amet."
 
-		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-	[params.recentposts]
-		hide  = false
-		title = "Recent blog posts"
 
 	[params.contact]
 		hide  = true
