@@ -1,0 +1,15 @@
+---
+title: Try Rmd Blogdown
+author: ynakahashi
+date: '2017-11-02'
+slug: try-rmd-blogdown
+categories: []
+tags: []
+---
+
+This is the first blog formatted as Rmd.
+
+```{r}
+knitr::kable(head(iris))
+```
+
